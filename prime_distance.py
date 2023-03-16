@@ -12,6 +12,7 @@ def chunks(lst, n):
         yield lst[i:i + n]
 
 
+# проверяет, является какое-нибудь число из списка dividers делителем num
 def func(num: int, dividers: list[int]) -> bool:
     for div in dividers:
         if num % div == 0:
